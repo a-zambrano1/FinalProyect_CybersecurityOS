@@ -8,17 +8,18 @@ Synflood
 Ubuntu virtual machine
 
 ##GUIDE
+
 Create a container on any server where you have permissions.
 
 In this container, it creates a virtual machine of Ubuntu in current versions.
 
-Access this vm using the command user@ip_direction (you must create a user other than root and the IP address must be that of the virtual machine).
+Access this VM using the command user@ip_direction (you must create a user other than root and the IP address must be that of the virtual machine).
 
 You can use the login.php file to check that you have a connection to the IP address of the virtual machine. To do this you must have apache2 php installed on the machine.
 
-In the virtual machine install SSH, Hping3 and SYNFlood
+In the virtual machine install SSH, Hping3, and SYNFlood
 
-SSH -> sudo apt-get install openssh-server
+SSH -> sudo apt-get install OpenSSH-server
 Hping3 -> sudo apt-get install hping3
 Synflood -> sudo apt-get install synflood
 
